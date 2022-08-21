@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+/* ------------------------
+---------main section-------
+------------------------ */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contrainer{
+    width: 83%;
+    height: 1546px;
+    margin-top: 45px;   
+}
+.top-view{
+    background-color: #161616;
+    width: 100%;
+    height: 456px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 45px;
+}
+.head-line h1{
+    color: white;
+    font-size: 40px;
+}
+.head-line p{
+    color: white;
+    font-size: 16px;
+}
+.head-line a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+.player img{
+    width: 120%;
+    position: relative;
+    top: 26px;
+}
+
+/* ---------------------------------------------------
+--------------blog itme-------------------------------
+------------------------------------------------------ */
+.menu-blog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    height: 260px;
+    width: 260px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: white;
+    color: red;
+    width: 100px;
+    padding: 15px 60px;
+    justify-content: center;
+    display: flex;
+    border-radius: 6px;
+
+}
+#active{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 15px 60px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    border-radius: 6px;
+}
+
+
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.blog{
+    height: 300px;
+    width: 260px;
+    border: 1px rgb(236, 236, 236) solid;
+    border-radius: 10px;
+}
+.blog img{
+    width: 100%;
+}
+.blog .details{
+    position: relative;
+    left: 10px;
+}
+.blog p{
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 90px;
+    padding: 4px 4px;
+    text-align: center;
+    margin: 10px 0px; 
+}
+.blog h4{
+    margin: 15px 0px;
+} 
+
+
+
+
+footer{
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+footer h1{
+    color: white;
+    text-align: center;
+    padding: 30px 5px;
+}
+footer hr{
+    margin: 65px 5px;
+    width: 995px;
+    border: none;
+    border-top: .10px solid rgb(87, 85, 85);
+
+}
+footer .link a{
+    text-decoration: none;
+    color: rgb(167, 163, 163);
+    font-size: smaller;
+    margin: 0px 10px;
+}
